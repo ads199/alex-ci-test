@@ -8,4 +8,6 @@ describe "Testing CI", () =>
 			assert.equal 1, App.getNumber()
 		it "should return 2", () =>
 			assert.equal 2, App.getAnotherNumber()
+		it "should return BANANA", () =>
+			assert.equal "BANANA", App.getABanana()
 
