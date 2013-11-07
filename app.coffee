@@ -7,4 +7,7 @@ class TestClass
 	getAnotherNumber : () =>
 		return "BANANA"
 
+	getABanana : () =>
+		return "2"
+
 module.exports = TestClass
