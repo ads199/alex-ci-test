@@ -5,9 +5,9 @@ class TestClass
 		return 1
 
 	getAnotherNumber : () =>
-		return "BANANA"
+		return "2"
 
 	getABanana : () =>
-		return "2"
+		return "BANANA"
 
 module.exports = TestClass
