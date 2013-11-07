@@ -1,4 +1,12 @@
 {
+	"name": "alex-ci-test",
+	"version": "0.0.1",
+	"description": "",
+	"author": "",
+	"dependencies": {
+		"sequelize" : "*",
+		"pg" : "*"
+	},
 	"scripts" : {
 		"test" : "mocha --compilers coffee:coffee-script"
 	}
