@@ -7,7 +7,7 @@ describe "Testing CI", () =>
 		it "should return 1", () =>
 			assert.equal 1, App.getNumber()
 		it "should return 2", () =>
-			assert.equal 2, App.getAnotherNumber()
+			assert.equal 3, App.getAnotherNumber()
 		it "should return BANANA", () =>
 			assert.equal "BANANA", App.getABanana()
 
@@ -19,7 +19,7 @@ describe "Testing Database", () =>
 		it "should create alex user", (done) =>
 			user.sync({force : true}).success(() =>
 				user.create({
-					name : "Alex Speed"
+					name : "Alex Smith"
 					email : "alex@luckymonkey.co.uk"
 				}).success(() =>
 					assert.equal true, true
